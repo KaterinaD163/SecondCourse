@@ -12,7 +12,7 @@ public class Main {
         changeValue2(value2);
         System.out.println(Arrays.toString(value2));
         Integer[] value3 = {3, 4};
-        changeValue2(value3);
+        changeValue3(value3);
         System.out.println(Arrays.toString(value3));
         Person person = new Person("Lyapis", "Trubetskoy");
         changePerson(person);
@@ -37,8 +37,7 @@ public class Main {
     }
 
     private static void changeValue3(Integer value[]) {
-        Integer[] value3 = new Integer[]{99};
-
+        value [0] = 99;
     }
 
     private static void changePerson(Person person) {
